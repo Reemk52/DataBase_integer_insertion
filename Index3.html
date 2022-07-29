@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title> Saving int to data base </title>
+    
+    <style>
+        h1{
+            text-align: center;
+            margin-top:65px;
+            margin-bottom:35px;
+            color:darkslateblue;
+        }
+        .buttons {
+			margin-top: 10px;  
+            margin-left: 920px;
+        }
+
+        label {
+             color:darkslateblue;
+             font-weight: bold;
+             font-size: 22px;
+             margin-left: 800px;
+            
+        }
+        
+    </style>
+</head>
+
+<body> 
+        <h1> Inserting numbers into Data Base </h1>
+        <form method = "GET" action="insert.php">
+            <p> <label> Enter your first name: <input type ="text" name="Fname" placeholder="Name" required></label></p>
+            <p> <label> Enter the number: <input type ="integer" name="number" placeholder="Number" required></label></p>
+        <div class= "buttons">
+            <p><input type = "submit"  value = "Submit" />
+            <input type = "reset" value = "Clear" />
+        </div>
+        </p>
+    </form>
+     
+</body>
+</html>
